@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Buy Your Powers!</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/portfolio-item.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <style type="text/css">
+        .image-flip:hover .backside, .image-flip.hover .backside {
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+        }
+        .image-flip:hover .frontside, .image-flip.hover .frontside {
+        -webkit-transform: rotateY(180deg);
+        -moz-transform: rotateY(180deg);
+        -o-transform: rotateY(180deg);
+        transform: rotateY(180deg);
+        }
+        .image-flip {
+        margin-bottom:200px;
+        width: 300px;
+        height: 250px;
+        }
+        .mainflip {
+        -webkit-transition: 1s;
+        -webkit-transform-style: preserve-3d;
+        -ms-transition: 1s;
+        -moz-transition: 1s;
+        -moz-transform: perspective(1000px);
+        -moz-transform-style: preserve-3d;
+        -ms-transform-style: preserve-3d;
+        transition: 1s;
+        transform-style: preserve-3d;
+        position: relative;
+        }
+        .frontside, .backside {
+        -webkit-backface-visibility: hidden;
+        -moz-backface-visibility: hidden;
+        -ms-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-transition: 1s;
+        -webkit-transform-style: preserve-3d;
+        -moz-transition: 1s;
+        -moz-transform-style: preserve-3d;
+        -o-transition: 1s;
+        -o-transform-style: preserve-3d;
+        -ms-transition: 1s;
+        -ms-transform-style: preserve-3d;
+        transition: 1s;
+        transform-style: preserve-3d;
+        position: absolute;
+        top: 0;
+        left: 0;
+        }
+        .frontside {
+        -webkit-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        z-index: 2;
+        }
+        .backside {
+        background: white;
+        -webkit-transform: rotateY(-180deg);
+        -moz-transform: rotateY(-180deg);
+        -o-transform: rotateY(-180deg);
+        -ms-transform: rotateY(-180deg);
+        transform: rotateY(-180deg);
+        }
+        .card, .card-img-top {
+        border-radius: 0;
+        }
+            
+            
+            
+            .sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 150px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+      </style>
+
+
+  </head>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "360px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+  <body>
+
+    <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        
+      <div class="container">
+        <a class="navbar-brand" href="#">Power Store</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            
+          </ul>
+        </div>
+      </div>
+    </nav>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+ <iframe height="850" width="350" src="https://bot.dialogflow.com/e70d264b-6848-467a-9f37-8d03661d497d"></iframe>
+</div>
+
+
+
+
+
+    <!-- Page Content -->
+    <div class="container">
+
+      <!-- Portfolio Item Heading -->
+     <!-- <h1 class="my-4">POWER STORE &emsp;
+        <small>Buy some super powers!</small>
+      </h1>-->
+        <br/>
+      <!-- Portfolio Item Row -->
+      <div class="row">
+
+        <div class="col-md-8">
+          <img class="img-fluid" style = "height: 250px; width: 700px;"src="images/superhero-banner.png" alt="">
+        </div>
+
+        <div class="col-md-4">
+          <h3 class="my-3">Get Your SuperPowers!</h3>
+          <p style="font-family: sans-serif; font-size: 13pt">Welcome to the one stop shop to buy all the SuperPowers and be a SuperHero! Still confused about the SuperPower you want to buy ? No problem! Chatty will help you with the selection. Just chat and get your powers! 😃</p>
+          <!--<h3 class="my-3">Project Details</h3>
+          <ul>
+            <li>Lorem Ipsum</li>
+            <li>Dolor Sit Amet</li>
+            <li>Consectetur</li>
+            <li>Adipiscing Elit</li>
+          </ul>-->
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+      <!-- Related Projects Row -->
+      <h3 class="my-4">MOST POPULAR</h3>
+
+      <div class="row">
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+            <div class="frontside">
+            <div class="card" style="width:15rem;">
+            <img class="card-img-top img- fluid" src="https://img.webnots.com/2017/04/Bootstrap-Card-Image.png" alt="card image">
+            <div class="card-body">
+            <h4 class="card-title">Card Title</h4>
+            <p class="card-text">This is basic card with image on top, title, description and button.</p>
+            </div>
+            </div>
+            </div>
+            <div class="backside">
+            <div class="card" style="width:15rem;">
+            <div class="card-header">
+            This is a Header
+            </div>
+            <div class="card-body">
+            <h4 class="card-title">Card Title</h4>
+            <p class="card-text">This is a card component with header and footer.</p>
+            <a href="#" class="btn btn-info btn-md">Info Button</a>
+            </div>
+            <div class="card-footer">
+            This is a Footer
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+            <div class="frontside">
+            <div class="card" style="width:15rem;">
+            <img class="card-img-top img- fluid" src="https://img.webnots.com/2017/04/Bootstrap-Card-Image.png" alt="card image">
+            <div class="card-body">
+            <h4 class="card-title">Card Title</h4>
+            <p class="card-text">This is basic card with image on top, title, description and button.</p>
+            </div>
+            </div>
+            </div>
+            <div class="backside">
+            <div class="card" style="width:15rem;">
+            <div class="card-header">
+            This is a Header
+            </div>
+            <div class="card-body">
+            <h4 class="card-title">Card Title</h4>
+            <p class="card-text">This is a card component with header and footer.</p>
+            <a href="#" class="btn btn-info btn-md">Info Button</a>
+            </div>
+            <div class="card-footer">
+            This is a Footer
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+         <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+            <div class="mainflip">
+            <div class="frontside">
+            <div class="card" style="width:15rem;">
+            <img class="card-img-top img- fluid" src="https://img.webnots.com/2017/04/Bootstrap-Card-Image.png" alt="card image">
+            <div class="card-body">
+            <h4 class="card-title">Card Title</h4>
+            <p class="card-text">This is basic card with image on top, title, description and button.</p>
+            </div>
+            </div>
+            </div>
+            <div class="backside">
+            <div class="card" style="width:15rem;">
+            <div class="card-header">
+            This is a Header
+            </div>
+            <div class="card-body">
+            <h4 class="card-title">Card Title</h4>
+            <p class="card-text">This is a card component with header and footer.</p>
+            <a href="#" class="btn btn-info btn-md">Info Button</a>
+            </div>
+            <div class="card-footer">
+            This is a Footer
+            </div>
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+        <div class="mainflip">
+        <div class="frontside">
+        <div class="card" style="width:15rem;">
+        <img class="card-img-top img- fluid" src="https://img.webnots.com/2017/04/Bootstrap-Card-Image.png" alt="card image">
+        <div class="card-body">
+        <h4 class="card-title">Card Title</h4>
+        <p class="card-text">This is basic card with image on top, title, description and button.</p>
+        </div>
+        </div>
+        </div>
+        <div class="backside">
+        <div class="card" style="width:15rem;">
+        <div class="card-header">
+        This is a Header
+        </div>
+        <div class="card-body">
+        <h4 class="card-title">Card Title</h4>
+        <p class="card-text">This is a card component with header and footer.</p>
+        <a href="#" class="btn btn-info btn-md">Info Button</a>
+        </div>
+        <div class="card-footer">
+        This is a Footer
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>
+    
+        </div>
+
+      </div>
+      <!-- /.row -->
+
+    </div>
+    <!-- /.container -->
+     <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; CHAT WITH US</span>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Power Store 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
